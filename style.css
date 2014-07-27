@@ -1,0 +1,55 @@
+* {margin: 0;padding: 0;}
+
+body {
+	font-size: 16px; 
+	font-family: "Lucida Grande", Helvetica, Sans-Serif;	
+	line-height: 1.6;
+	color: #555;
+	background-color: #f8f8f8;
+}
+
+.container {
+	width: 1200px; /* actual container width is 1170px; */
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+
+.row {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	height: auto;
+}
+
+.column {
+	float: left;
+	display: inline;
+	padding-right:15px;
+	padding-left: 15px; 
+}
+
+.column img {
+	max-width: 100%;
+}
+
+.one 	{width: 45px;}
+.two	{width: 110px;}
+.three	{width: 195px;}
+.four	{width: 270px;}
+.five	{width: 345px;}
+.six	{width: 420px;}
+.seven	{width: 495px;}
+.eight	{width: 570px;}
+.nine	{width: 645px;}
+.ten	{width: 720px;}
+.eleven	{width: 795px;}
+.twelve		{width: 870px;}
+.thirteen	{width: 945px;}
+.fourteen	{width: 1020px;}
+.fifteen	{width: 1095px;}
+.sixteen	{width: 1170px;}
+
+.center-column {
+	margin: 0 auto;
+	display: block;
+}
